@@ -6,5 +6,5 @@
   * Using flexbox to make design easier
   
 **You can visit the website here**
-https://webshop-rahmanurs-projects.vercel.app/
-https://ramencina-webshop.netlify.app/
+* https://webshop-rahmanurs-projects.vercel.app/
+* https://ramencina-webshop.netlify.app/
