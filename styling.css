@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins&display=swap");
+
+
+
+    *{
+        font-family: "Fjalla One", sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    header{
+        height: 130vh;
+        width: 100%;
+        background-color: #363062;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        width: 90%;
+        height: 70px;
+        background-color: white;
+        border-radius: 0px 0px 30px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 19px;
+    }
+    .logo{
+        color: black;
+        /* padding-left: 15rem; */
+        font-size: 35px;
+        font-style: italic;
+    }
+
+    nav ul li{
+        list-style-type: none;
+        display: inline;
+        margin: 5px 20px;
+    }
+    nav ul li a{
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all;
+        transition-duration: .5s;
+        border-bottom: 2px solid #e9c4f900;
+        padding-bottom: 5px;
+    }
+    .wrapper-header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .text{
+        width: 600px;
+        height: 400px;
+        margin: 5% 5% 0% 5%;
+        color: white;
+    }
+    .text p{
+        font-size: 65px;
+        margin-bottom: 18px;
+    }
+    button {
+        font-size: 20px;
+        padding: 10px 25px;
+        border-radius: 20px;
+    }
+    button i{
+        padding-left: 10px;
+    }
+    .img-1{
+        width: 350px;
+        height: 380px;
+        /* border-radius: 50% 50% 0px 0px; */
+        border-radius: 130px 0 130px 0px;
+        margin-top: 120px;
+    }
+    .img-2{
+        position: relative;
+        bottom: 5rem;
+        left: 3rem;
+        height: 250px;
+        width: 250px;
+        border-radius: 50% 50% 0px 0px;
+    }
+    /* best for you */
+    #best-for-you{
+        padding: 5%;
+    }
+    .best{
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 2%;
+    }
+    .wrapper-kursi{
+        display: flex;
+        justify-content: space-between;
+    }
+    .kursi{
+        display: flex;
+        align-items: center;
+    }
+
+    .kursi-img {
+        width: 130px;
+        height: 150px;
+    }
+    /* out featured product */
+    #fiture{
+        width: 100%;
+        height: auto;
+        background-color: #363062;
+    }
+    .text-daftar{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        padding: 5% 5% 3%;
+        color: white;
+    }
+    .wrapper-kursi-desc{
+        padding: 0% 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .kursiDesc{
+        margin: 20px 20px 0px;
+    }
+    .kursiDesc img{
+        border-radius:30px 30px 0px 0px;
+        box-shadow: 0px 4px black;
+        width: 150px;
+        height: 150px;
+    }
+    .text-kursiDesc{
+        background-color: black;
+        color: white;
+        padding: 20px 30px;
+        margin-bottom: 30px;
+        border-radius: 0px 0px 30px 30px;
+    }
+    .kiri{
+        width: 350px;
+        margin-top: 10px;
+    }
+
+    /* we provide */
+    #provide{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 5%;
+    }
+    .wrapper-text{
+        width: 365px;
+        font-size: 35px;
+    }
+    .wrapper-text p{
+        font-size: 20px;
+        line-height: 30px;
+        padding: 30px 0px;  
+    }
+
+    /* footerrrrrrrrrrrr */
+    footer{
+        background-color: #363062;
+        padding: 8%;
+        color: white;
+    }
+    .nama-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .foot-logo{
+        width: 45%;
+        font-size: 35px;
+    }
+    span{
+        color: white;
+    }
+    .foot-logo p{
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+    .footer-home{
+        font-size: 20px;
+    
+    }
+    .footer-home h4{
+        font-size: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-help{
+        font-size: 20px;
+    
+    }
+    .footer-help h4{
+        font-size: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-social{
+        font-size: 20px;
+    
+    }
+    .footer-social h4{
+        font-size: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .copy{
+        font-size: 25px;
+        padding-top: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* tab */
+@media only screen and (max-width: 850px) {
+    .wrapper-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    header {
+        height: 100vh;
+    }
+    .text{
+        width: 500px;
+        height: 250px;
+        text-align: center;
+    }
+    .text p{
+        font-size: 50px;
+        line-height: 55px;
+        margin-bottom: 10px;
+    }
+    button {
+        font-size: 15px;
+    }
+    .img-1{
+        width: 350px;
+        height: 350px;
+        border-radius: 50% 50% 0px 0px;
+        margin: 0% 5% 5%;
+    }
+    .img-2{
+        width: 350px;
+        height: 350px;
+        border-radius: 90px 0px 90px 0px;
+        margin: 0% 5% 5%;
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+    }
+    .best{
+        font-size: 23px;
+    }
+    .wrapper-kursi{
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper-kursi-desc{
+        padding: 0%;
+    }
+    .text-daftar{
+        font-size: 27px;
+    }
+    .kursiDesc img{
+        width: 200px;
+    }
+    #provide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper-text{
+        width: 400px;
+        font-size: 30px;
+    }
+}
+/* android */
+@media only screen and (max-width: 655px) {
+    nav{
+        font-size: 15px;
+    }
+    .nav-logo{
+        font-size: 25px;
+    }
+    .content{
+        width: 380px;
+    }
+    .content p{
+        font-size: 40px;
+    }
+    button {
+        font-size: 15px;
+    }
+    .img1{
+        width: 280px;
+        height: 250px;
+        border-radius: 150px 150px 0px 0px;
+    }
+    .img2{
+        display: none;
+    }
+    #content-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text{
+        width: 380px;
+        font-size: 18px;
+    }
+    .card-1{
+        width: 380px;
+    }
+    .card-isi img{
+        width: 200px;
+    }
+    .teks-jenis{
+        font-size: 25px;
+    }
+    .jenis img{
+        width: 200px;
+    }
+    .teks-kategori{
+        width: 350px;
+    }
+    .edit{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 417px) {
+    nav{
+        /* width: 90%; */
+        height: 50px;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header {
+        height: 70vh;
+    }
+
+    .logo{
+        font-size: 23px;
+        width: 100px;
+    }
+
+    .text{
+        width: 200px;
+        margin: 0;
+    }
+
+    .img-2 {
+        height: 150px;
+        width: 150px;
+        display: none;
+    }
+    .text p{
+        font-size: 40px;
+        /* width: 150px; */
+        width: 200px;
+        text-align: center;
+    }
+    .img-1{
+        height: 200px;
+        width: 200px;
+        position: relative;
+        top: 10rem;
+        /* margin: 0px 0px 10px 0px; */
+    }
+    .wrapper-kursi{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .kursi img{
+        width: 150px;
+    }
+    .best{
+        width: 300px;
+        font-size: 14px;
+    }
+    .kiri{
+        width: 290px;
+    }
+    .wrapper-text{
+        width: 290px;
+        font-size: 20px;
+    }
+}
+
+/* @media only screen and (max-width : 1241px) {
+    .img-2 {
+        position: relative;
+    }
+
+    header {
+        height: 90vh;
+    }
+    .text {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width : 1089px) {
+    .text {
+        width: 450px;
+        font-size: 3rem;
+    }
+
+    header {
+        height: 110vh;
+    }
+
+    .img-2 {
+        bottom: 3rem;
+    }
+} */
+
